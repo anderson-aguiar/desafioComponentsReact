@@ -1,0 +1,12 @@
+main h2 {
+    font-size: 20px;
+    color: var(--dsct-color-font-secondary);
+    text-align: center;
+    padding: 25px 25px 0px 25px;
+}
+
+@media (width >=746px) {
+    main h2 {
+        font-size: 32px;
+    }
+}

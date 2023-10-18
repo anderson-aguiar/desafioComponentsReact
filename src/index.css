@@ -5,6 +5,9 @@
   --dsct-color-bg-secondary: #3C9AF0;
 
   --dsct-color-font-primary: #fff;
+  --dsct-color-font-secondary: #5e5e5e;
+
+  --dsct-color-border: #3c9af0;
 
 }
 
@@ -24,4 +27,10 @@ a:hover {
 html,
 body {
   background-color: var(--dsct-color-bg-primary);
+}
+
+.dsct-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
 }

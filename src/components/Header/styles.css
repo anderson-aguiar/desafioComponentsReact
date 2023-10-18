@@ -9,4 +9,12 @@ header {
 header h1 {
     color: var(--dsct-color-font-primary);
     font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (width >=746px) {
+    header h1 {
+        font-size: 24px;
+    }
 }
