@@ -1,0 +1,12 @@
+header {
+    background-color: var(--dsct-color-bg-secondary);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: var(--dsct-color-font-primary);
+    font-size: 20px;
+}
