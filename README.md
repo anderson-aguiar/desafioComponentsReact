@@ -1,27 +1,18 @@
-# React + TypeScript + Vite
+# Desafio Componentes React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Desafio proposto no curso da DevSuperior
 
-Currently, two official plugins are available:
+Você deverá entregar um projeto ReactJS estruturado em componentes, conforme design Figma abaixo:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://www.figma.com/file/SGgxfyEMVs2gr04URFB75E/Desafio-Componentes-React
 
-## Expanding the ESLint configuration
+Seu projeto deve ser criado usando o Vite.
+## Critérios de correção
+Todos critérios a seguir devem ser contemplados:
+1) Componente para representar o cabeçalho
+2) Componente para representar o card de carro
+3) Componente para representar o card de comentário
+4) Componente para representar o rodapé
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
