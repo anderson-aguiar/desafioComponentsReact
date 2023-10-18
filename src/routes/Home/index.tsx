@@ -2,6 +2,7 @@ import Header from '../../components/Header';
 import CarCard from '../../components/CarCard';
 import './styles.css';
 import CommentCard from '../../components/CommentCard';
+import Footer from '../../components/Footer';
 
 export default function Home() {
     return (
@@ -23,6 +24,7 @@ export default function Home() {
                     <CommentCard />
                     <CommentCard />
                 </section>
+                <Footer />
             </main>
         </>
     );
