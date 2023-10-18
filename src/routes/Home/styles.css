@@ -5,6 +5,15 @@ main h2 {
     padding: 25px 25px 0px 25px;
 }
 
+#dsct-comment-section {
+    background-color: var(--dsct-color-bg-tertiary);
+    padding-bottom: 25px;
+}
+
+#dsct-comment-section h2 {
+    margin-bottom: 25px;
+}
+
 @media (width >=746px) {
     main h2 {
         font-size: 32px;

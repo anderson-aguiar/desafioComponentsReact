@@ -6,7 +6,7 @@ export default function CarCard() {
         <section id='dsct-car-card-section'>
             <div className='dsct-car-card-container'>
 
-                <div className='dsct-car-card-content'>
+                <div className='dsct-car-card-contents'>
                     <img src={carImg} alt="Carro" />
                     <h3>Lorem ipsum dolor</h3>
                 </div>

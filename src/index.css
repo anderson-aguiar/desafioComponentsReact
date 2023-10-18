@@ -3,9 +3,11 @@
 :root {
   --dsct-color-bg-primary: #fff;
   --dsct-color-bg-secondary: #3C9AF0;
+  --dsct-color-bg-tertiary: #c8c8c8;
 
   --dsct-color-font-primary: #fff;
   --dsct-color-font-secondary: #5e5e5e;
+  --dsct-color-font-tertiary: #3c9af0;
 
   --dsct-color-border: #3c9af0;
 

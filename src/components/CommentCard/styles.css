@@ -1,0 +1,23 @@
+.dsct-comment-card-container {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.dsct-comment-card-contents {
+    color: var(--dsct-color-font-tertiary);
+    background-color: var(--dsct-color-bg-primary);
+    padding: 25px 20px;
+    border-radius: 12px;
+    border: 1px solid var(--dsct-color-border);
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+
+@media (width >=746px) {
+    .dsct-comment-card-container {
+        max-width: 960px;
+        padding: 0 10px;
+    }
+}

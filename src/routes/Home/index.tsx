@@ -1,6 +1,7 @@
 import Header from '../../components/Header';
 import CarCard from '../../components/CarCard';
 import './styles.css';
+import CommentCard from '../../components/CommentCard';
 
 export default function Home() {
     return (
@@ -12,8 +13,15 @@ export default function Home() {
                 </div>
                 <CarCard />
                 <CarCard />
-                <section id='dsct-comment-card-section'>
-
+                <section id='dsct-comment-section'>
+                    <div>
+                        <h2>O que estão dizendo</h2>
+                    </div>
+                    <CommentCard />
+                    <CommentCard />
+                    <CommentCard />
+                    <CommentCard />
+                    <CommentCard />
                 </section>
             </main>
         </>
